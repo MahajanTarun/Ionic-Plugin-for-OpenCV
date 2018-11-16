@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="displaybottom">
+      <button ion-button (click)="openCamera(this.selection)">Camera</button>
+      <button ion-button (click)="openFilePicker(this.selection)">Gallery</button>
+  </div>
+  <div class="pictures">
+      <p><img id="previewPicture" width="200" /></p>
+      <!--<p><img id="originalPicture" width="200"/></p>-->
+  </div>
+  <!-- <div class="pictures">
+    <video #video width="640" height="480" autoplay></video>
+  </div> -->
+</ion-content>
